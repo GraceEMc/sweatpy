@@ -7,4 +7,5 @@ from .io.strava import read_strava
 from .io.tcx import read_tcx
 from .pdm.regressors import PowerDurationRegressor
 from .pdm.w_prime_balance import w_prime_balance
+from .pdm.d_prime_balance import interval_speed
 from .utils import array_1d_to_2d
